@@ -1,0 +1,24 @@
+Source: rocm-core
+Section: devel
+Priority: optional
+Maintainer: CHEN Xuan <chenxuan@iscas.ac.cn>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ rocm-env,
+ rocm-llvm,
+Standards-Version: 4.7.0
+Homepage: https://github.com/r-rocm/rocm-core
+
+Package: rocm-core
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ rocm-env,
+Description: Get ROCm release version & install path info
+ ROCM-CORE is a package which can be used to get ROCm release version, get ROCm
+ install path information etc. It is also important to note that ROCM-CORE takes
+  the role as a base component on which all of ROCm can depend, to make it easy
+  to remove all of ROCm with a package manager.
