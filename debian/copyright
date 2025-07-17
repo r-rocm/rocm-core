@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/ROCm/rocm-core
-Upstream-Name: rocm-core-rocm
+Upstream-Name: rocm-core
 Upstream-Contact: https://github.com/ROCm/rocm-core
 
 Files:

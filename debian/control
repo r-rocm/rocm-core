@@ -9,7 +9,7 @@ Build-Depends:
  rocm-env,
  rocm-llvm,
 Standards-Version: 4.7.0
-Homepage: https://github.com/r-rocm/rocm-core
+Homepage: https://github.com/revyos-rocm/rocm-core
 
 Package: rocm-core
 Architecture: any
